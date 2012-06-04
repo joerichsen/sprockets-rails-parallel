@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"] + ["LICENSE", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'sprockets', "~>2.4.0"
+  s.add_dependency 'sprockets', "~>2.1.3"
   s.add_dependency 'ffi-rzmq', "~>0.9.3"
   s.add_dependency 'sprockets-rails'
 
